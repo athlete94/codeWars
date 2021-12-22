@@ -4,9 +4,9 @@ function solution(str){
          str = str + "_"
      }
      for(let i = 0; i < str.length; i+=2) {
-         arr.push(str.substring(i, i+2))
+         arr.push(str[i]+str[i+1])
      }
    return arr
  }
 
-console.log(solution('abcdef'))
+console.log(solution('abcdef2'))

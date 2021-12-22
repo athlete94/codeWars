@@ -8,4 +8,4 @@ function bump(x){
     return sum <= 15 ? "Woohoo!" : "Car Dead"
 }
 
-console.log(bump('nnn_____nn_n_n__nnnnnnnnnn'))
+bump('nnn_____nn_n_n')
